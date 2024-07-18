@@ -6,9 +6,9 @@ This is an api-layout which can be used to implement a RESTful API in Go. Its ba
 The following list states the requirements which are gradually implemented in
 the api-layout.
 
-- [] Error handling
-- [] Route adding
-- [] Graceful shutdown
-- [] HTTP/S Certificates
-- [] Configuration of the API using ENV variables, CLI and config files (12 Factor app)
-- [] General Logging approach based upon the 12 Factor app method
+- [ ] Error handling
+- [ ] Route adding
+- [ ] Graceful shutdown
+- [ ] HTTP/S Certificates
+- [ ] Configuration of the API using ENV variables, CLI and config files (12 Factor app)
+- [ ] General Logging approach based upon the 12 Factor app method
