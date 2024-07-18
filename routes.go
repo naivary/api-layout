@@ -2,14 +2,14 @@ package main
 
 import (
 	"net/http"
-
-	"github.com/naivary/api-layout/handler"
 )
 
 func newRouter() http.Handler {
 	mux := http.NewServeMux()
-	// add your routes here
-	mux.Handle("GET /healthz", handler.Healthz())
-	mux.Handle("/", http.NotFoundHandler())
+    // TODO(user): Add your routes here. `mux` is the standard multiplexer
+    // from the standard library and can be exchanged with any type of
+    // multiplexer you which to use.
+
+	// mux.Handle("GET /healthz", handler.Healthz())
 	return mux
 }
