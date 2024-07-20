@@ -7,9 +7,9 @@ allowing to expand however the user likes it.
 The following list states the requirements which are gradually implemented in
 the api-layout.
 
-- [ ] Error handling
-- [ ] Route adding
-- [ ] Graceful shutdown
+- [x] Error handling
+- [x] Route adding
+- [x] Graceful shutdown
 - [ ] HTTP/S Certificates
 - [ ] Configuration of the API using ENV variables, CLI and config files (12 Factor app)
 - [ ] General Logging approach based upon the 12 Factor app method
