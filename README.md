@@ -16,6 +16,7 @@ the api-layout.
 - [ ] Default Values
 - [ ] Static validation via JSON Schema
 - [ ] Complex Validation using a common interface
+- [ ] Decoding and Encoding
 
 ## Error handling
 Handling errors in a `HandlerFunc` is challenging. One can't follow the usual

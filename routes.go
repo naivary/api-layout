@@ -2,6 +2,8 @@ package main
 
 import (
 	"net/http"
+
+	"github.com/naivary/api-layout/controller"
 )
 
 func newRouter() http.Handler {
@@ -11,5 +13,6 @@ func newRouter() http.Handler {
     // multiplexer you which to use.
 
 	// mux.Handle("GET /healthz", handler.Healthz())
+    mux.Handle("GET /healthz", controller.HandleSomething())
 	return mux
 }
